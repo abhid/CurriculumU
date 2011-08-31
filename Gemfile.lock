@@ -30,6 +30,10 @@ GEM
       activesupport (= 3.1.0.rc6)
     activesupport (3.1.0.rc6)
       multi_json (~> 1.0)
+    acts_as_api (0.3.8)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      rack (>= 1.1.0)
     arel (2.2.1)
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
@@ -125,6 +129,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_api
   coffee-rails (~> 3.1.0.rc)
   haml-rails
   jquery-rails

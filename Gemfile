@@ -8,6 +8,7 @@ gem 'rails', '3.1.0.rc6'
 gem 'mysql2'
 gem 'rspec-rails'
 gem 'haml-rails'
+gem 'acts_as_api'
 
 
 # Gems used only for assets and not required
